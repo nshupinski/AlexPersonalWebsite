@@ -1,0 +1,14 @@
+#navContainer {
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-top: 3em;
+}
+
+#headerBox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    width: 80%;
+    height: 30em;
+    background-color: darkgray;
+}
