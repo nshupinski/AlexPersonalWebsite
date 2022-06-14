@@ -1,14 +1,25 @@
 #navContainer {
-    padding-right: 7%;
-    padding-left: 7%;
-    margin-top: 3em;
+    padding-right: 6%;
+    padding-left: 6%;
+    margin-top: 1.8em;
 }
 
 #headerBox {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8em;
-    width: 80%;
-    height: 30em;
+    width: 82%;
+    height: 32em;
     background-color: darkgray;
+}
+#headerBox .row {
+    height: 100%;
+}
+#headerBox img {
+    width: 80%;
+}
+
+
+#logo {
+    font-size: 2.5em;
 }
