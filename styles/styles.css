@@ -1,29 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Nav */
 #navContainer {
     padding-right: 6%;
     padding-left: 6%;
-    margin-top: 1.8em;
+    margin-top: 1.3em;
 }
-
-
 nav a {
     font-family: gulzar;
+    font-size: larger;
+    margin-right: 3em;
+    font-weight: 800;
 }
+.nav-link {
+    padding-bottom: 0;
+}
+    li:hover {
+        text-decoration: underline;
+    }
+#logo {
+    font-size: 3em;
+}
+/* Nav END */
+
+/* Header */
 #headerBox {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8em;
     width: 82%;
-    height: 32em;
+    height: 73%;
     background-color: darkgray;
-}
-#headerBox .row {
-    height: 100%;
 }
 #headerBox img {
     width: 80%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 7px 7px 7px;
+}
+.headerCol {
+    padding: 0;
+}
+#col-img {
+    /* background-color: grey; */
+    background: linear-gradient(to bottom right, rgb(194, 194, 194), rgb(82, 82, 82));
+}
+/* Header END */
+
+.arrow {
+    margin-top: 2em;
+    margin-bottom: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4em !important;
+}
+.arrow_small {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+    height: 1.6em !important;
+    display: block;
+    transition: all ease 0.3s;
+}
+.arrow_small:hover {
+    scale: 1.4;
+}
+.arrow_small.open {
+    transform: rotate(180deg);
 }
 
-
-#logo {
-    font-size: 2.5em;
+/* Homepage About */
+#aboutSec {
+    width: 100%;
+    background-color: lightgrey;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 8;
 }
+#aboutBox {
+    background-color: white;
+    padding: 3%;
+}
+.headshot-about {
+    width: 25%;
+    border-radius: 50% 50% 50%;
+    margin-bottom: 2em;
+}
+
+/* About END */
+
+/*--------------------------------------------*/
+
+/* CV */
+.header {
+    text-align: center;
+}
+
+.Sec {
+    width: 100%;
+    background-color: grey;
+    padding-top: 1.5em;
+}
+
+.Sec .header {
+    margin-bottom: 0.4em;
+}
+
+.Sec img {
+    width: 55%;
+}
+
+.cv_img {
+    text-align: center;
+}
+
+#cv_nav a {
+    color: white;
+    position: fixed;
+    margin-left: 2em;
+    font-family: gulzar;
+    font-size: larger;
+}
+    #cv_nav a:hover {
+        color: red;
+        text-decoration: none;
+    }
+
+#href-1 {
+display: inline;
+margin-top: 10em;
+height: 2em;
+}
+/* CV Ends */
+
+
+/*--------------------------------------*/
+
+/* Research Start */
+.research_sec {
+    margin-top: 2em;
+}
+.research-header {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.research-block-sec {
+    text-align: center;
+}
+.research-block {
+    height: 12rem;
+    background-color: lightgrey;
+    margin-top: 3em;
+}
+/* Research End */
+
+/*--------------------------------------*/
+
+/* Publications Start */
+
+.content_section {
+    padding: 3em;
+    padding-left: 16em;
+    padding-right: 16em;
+    height: 100%;
+}
+.download_links {
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+.download_links a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Publications Ends */
